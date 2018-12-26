@@ -19,9 +19,9 @@ sudo python setup.py install
 cd $HOME
 git clone https://github.com/davidramirezm30/scratch-orangepi
 sudo chmod -R 777 scratch-orangepi
-sudo cp scratch-orangepi /opt
+sudo cp -r scratch-orangepi /opt
 cd /opt/scratch-orangepi
-sudo cp -r 'Scratch Projects' $HOME/Documentos
+sudo cp -r "Scratch Projects" $HOME/Documentos
 sudo cp scratchgpio.desktop $HOME/Escritorio
 
 sudo rm -rf OrangePi.GPIO/
